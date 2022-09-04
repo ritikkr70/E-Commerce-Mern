@@ -32,7 +32,7 @@ border:1px solid lightgray;
 const Input = styled.input`
 flex:8;
 border:none;
-p
+padding-left: 20px;
 `;
 const Button = styled.button`
 background-color: teal;
