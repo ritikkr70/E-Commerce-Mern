@@ -39,6 +39,7 @@ export const categories = [
     title: "LIGHT JACKETS",
   },
 ];
+<<<<<<< HEAD
 
 export const popularProducts = [
   {
@@ -74,3 +75,5 @@ export const popularProducts = [
     img:"https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png",
   },
 ]
+=======
+>>>>>>> d2253d2df49bd478ab0c47ff53289f9b5f9cf7af

@@ -32,7 +32,11 @@ const Wrapper = styled.div`
   height: 100%;
   display: flex;
   transform: translateX(${(props) => props.slideIndex * -100}vw);
+<<<<<<< HEAD
   transition: all 1.5s ease;
+=======
+  transition:all 1.5s ease;
+>>>>>>> d2253d2df49bd478ab0c47ff53289f9b5f9cf7af
 `;
 
 const Slide = styled.div`
@@ -94,7 +98,11 @@ const Slider = () => {
       </Arrow>
       <Wrapper slideIndex={slideIndex}>
         {sliderItems.map((item) => (
+<<<<<<< HEAD
           <Slide bg={item.bg} key={item.id}>
+=======
+          <Slide bg={item.bg}>
+>>>>>>> d2253d2df49bd478ab0c47ff53289f9b5f9cf7af
             <ImageCOntainer>
               <Image src={item.img} />
             </ImageCOntainer>
