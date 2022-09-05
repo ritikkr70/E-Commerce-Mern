@@ -21,7 +21,7 @@ const Desc = styled.div`
   margin-bottom: 20px;
 `;
 const InputContainer = styled.div`
-width:50%;
+width:40%;
 height: 40px;
 display: flex;
 justify-content: space-between;
